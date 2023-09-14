@@ -1,0 +1,34 @@
+{
+  "heroes": [
+    {
+      "state": "active",
+      "title": "Varkens",
+      "preview_text": "Lipsum",
+      "main_text_1": "",
+      "main text_2": "",
+      "quote": "",
+      "img_url": "",
+      "video_url": ""
+    },
+    {
+      "state": "active",
+      "title": "Varkens",
+      "preview_text": "Lipsum",
+      "main_text_1": "",
+      "main text_2": "",
+      "quote": "",
+      "img_url": "",
+      "video_url": ""
+    },
+    {
+      "state": "active",
+      "title": "Varkens",
+      "preview_text": "Lipsum",
+      "main_text_1": "",
+      "main text_2": "",
+      "quote": "",
+      "img_url": "",
+      "video_url": ""
+    }
+  ]
+}
