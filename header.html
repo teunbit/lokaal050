@@ -9,25 +9,14 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
     </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'noorderpoort': '#FFDB01',
-                    },
-                    fontFamily: {
-                        'elite': ['Special Elite', 'cursive']
-                    }
-                }
-            }
-        }
-    </script>
+    <script src="js/twconfig.js"></script>
 </head>
 
-<body>
-    <header class="border-b-2 border-noorderpoort text-center py-3 text-2xl font-elite">
-        <h1>Lokaal 050</h1>
+<body class="bg-base">
+    <header class="border-b-2 border-primary text-center shadow-md py-6">
+        <h1
+            class="border-dashed border-2 rounded-lg border-heading text-heading text-2xl rotate-3 font-heading pt-2 w-fit mx-auto px-2">
+            Lokaal 050</h1>
     </header>
 </body>
 
