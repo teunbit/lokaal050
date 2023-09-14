@@ -6,5 +6,11 @@ heroes.forEach(hero => {
     button.addEventListener("click", (e) => {
         e.preventDefault();
         collapseable_text.classList.toggle("h-screen");
+        button.remove();
+        setTimeout(() => {
+            collapseable_text.classList.toggle("h-screen");
+            collapseable_text.classList.toggle("h-fit");
+     
+        }, 1000);
     })
 });
