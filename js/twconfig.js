@@ -20,7 +20,12 @@ tailwind.config = {
             },
             fontFamily: {
                 'sans-serif': fontstack_sans_serif,
+            },
+            content: {
+                'sprite': 'url("./media/logos/Lokaal 050 Graanspriet.svg")'
+              },
             }
+
         }
     }
-}
+
