@@ -22,8 +22,12 @@ tailwind.config = {
                 'sans-serif': fontstack_sans_serif,
             },
             content: {
-                'sprite': 'url("./media/logos/Lokaal 050 Graanspriet.svg")'
+                'sprite': 'url("./media/logos/Lokaal 050 Graanspriet.svg")',
+                'hero': 'url("./media/dd-fotos/hero.jpeg")'
               },
+              scale: {
+                '-100': '-1',
+            }
             }
 
         }
