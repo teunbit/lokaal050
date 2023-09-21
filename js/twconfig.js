@@ -3,6 +3,7 @@ const primary_color_light = '#54B880';
 const primary_color_dark = '#0D8549';
 const secondary_color = "#b88054";
 const base_color = '#fffff0';
+const brand_color = '#ffdb01;'
 
 const heading_color = '#302b28';
 
@@ -17,6 +18,7 @@ tailwind.config = {
                 'secondary': secondary_color,
                 'heading': heading_color,
                 'base': base_color,
+                'brand': brand_color,
             },
             fontFamily: {
                 'sans-serif': fontstack_sans_serif,

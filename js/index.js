@@ -1,16 +1,6 @@
-const heroes = document.querySelectorAll(".heroes>div");
+const logo = document.querySelector('#logo');
 
-heroes.forEach(hero => {
-    const button = hero.querySelector("button");
-    const collapseable_text = hero.querySelector("div>div>div");
-    button.addEventListener("click", (e) => {
-        e.preventDefault();
-        collapseable_text.classList.toggle("h-screen");
-        button.remove();
-        setTimeout(() => {
-            collapseable_text.classList.toggle("h-screen");
-            collapseable_text.classList.toggle("h-fit");
-     
-        }, 1000);
-    })
+
+logo.addEventListener('click', () => {
+    window.scrollTo(0,0);
 });
